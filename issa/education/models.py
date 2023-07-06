@@ -70,7 +70,7 @@ class Eleve(Personne):
     status = models.CharField(max_length = 32, choices = Status)
     niveau = models.CharField(max_length = 32, choices = Niveau)
     serie = models.CharField(max_length = 32, choices = Serie)
-    adresse = models.ForeignKey(Adresse, on_delete = models.CASCADE, unique=True)
+    adresse = models.ForeignKey(Adresse, on_delete = models.CASCADE)
     Matiere = models.ManyToManyField(Matiere)
 
     def __str__(self):

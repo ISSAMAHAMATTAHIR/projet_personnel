@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'delegation.wsgi.application'
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'delec_db',
+    'NAME': 'dele',
     'USER': 'root',
-    'PASSWORD': 'ms@@12MS',
+    'PASSWORD': 'Isma78@@',
     'HOST': '127.0.0.1',
     'PORT': '3306',
     }
